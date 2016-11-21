@@ -1,0 +1,52 @@
+
+.centered-text {text-align: center; padding-bottom: 15px}
+div{
+  font-family: "Verdana";
+}
+#home{
+  font-size: 25px;
+  color: white;
+
+}
+body{
+  background-image: url("bluebackground.jpg");
+  color: white;
+}
+a{
+  color: rgb(106,99,91);
+}
+
+a:hover{
+  opacity: 0.8;
+
+}
+#mainimg{
+
+  margin: 0px 50px;
+}
+.submited
+{
+  display:hidden;
+}
+
+input:required:invalid, input:focus:invalid{
+  /* insert your own styles for invalid form input */
+    background-image: url("invalid.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+  -moz-box-shadow: none;
+}
+
+input:required:valid {
+  /* insert your own styles for valid form input */
+      background-image: url("valid.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+
+
+}
